@@ -1,0 +1,102 @@
+  /*Main stylesheet*/
+  /*nav menu*/
+
+  #nav-menu .brand-name {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    background-color: #2e353d;
+  }
+
+  #nav-menu h1 {
+    margin-bottom: 0;
+  }
+
+  #nav-menu ul {
+    list-style: none;
+  }
+
+  #nav-menu ul, #nav-menu li {
+    line-height: 35px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    cursor: pointer;
+  }
+
+  #nav-menu ul .visited, #nav-menu li .visited {
+    /*border-left: 3px solid #d19b3d;*/
+    background-color: #4f5b69;
+  }
+
+  #nav-menu li {
+    padding-left: 0;
+    border-bottom: 1px solid dimgray;
+    border-left: 10px solid #2e353d;
+  }
+
+  #nav-menu li a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  #nav-menu li a {
+    font-size: 16px;
+    width: 20px;
+    padding-right: 20px;
+    padding-left: 10px;
+  }
+
+  #nav-menu li:hover {
+    /*-webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+         -o-transition: all 1s ease;
+            transition: all 1s ease;*/
+    border-left: 5px solid green;
+    background-color: #0e1123;
+  }
+
+  #nav-menu {
+    font-family: arial;
+    font-size: 12px;
+    font-weight: 200;
+    position: fixed;
+    top: 0;
+    overflow: auto;
+    /*width: 250px;*/
+    height: 100%;
+    color: #fff;
+    background-color: #2e353d;
+  }
+  /*header style*/
+
+  .currentPage {
+    background-color: #F0F0F0;
+  }
+
+  .currentPage h1 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+  }
+  /*end header style*/
+  /*Footer style*/
+
+  #footer {
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+    text-align: center;
+    color: #fff;
+  }
+
+  #footer p {
+    font-size: 16px;
+    color: gray;
+  }
+
+  #footer span {
+    color: #63C3D1;
+  }
