@@ -1,4 +1,4 @@
-  <nav id ="nav-menu" class="col-md-2">
+<nav id="nav-menu" class="menu col-md-2">
     <div class="brand-name row">
       <h1>COGIP</h1>
       <p>3 Rue des oliviers, 75025 Paris Cedex</p>
@@ -26,4 +26,4 @@
         </li>
       </ul>
     </div>
-  </nav>
+</nav>

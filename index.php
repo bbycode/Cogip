@@ -1,21 +1,15 @@
 <?php
-require_once('parametres.php');
-//Inclusion du header
-$entete = new headerController();
-$currentPage = $entete->currentPage();
-$entete->load();
-//End header
-
-//Menu
-$menu = new menuController();
-$menu->load();
-//End menu
-//contenu
-$contenu = new contentController($currentPage);
-$contenu->load($currentPage);
-//End contenu
-//Inclusion du footer
-$piedPage = new footerController();
-$piedPage->load();
-//End footer
+require_once('config.php');
+//Header insertion
+require_once(CONTROLLER. "HeaderController.php");
+$headerview = new HeaderController();
+$headerview->load();
+//Nav insertion
+require_once(CONTROLLER. "MenuController.php");
+$navview = new MenuController();
+$navview->load();
+//Footer insertion
+require_once(CONTROLLER. "FooterController.php");
+$footerview = new FooterController();
+$footerview->load();
 ?>
