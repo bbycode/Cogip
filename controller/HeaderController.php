@@ -28,10 +28,10 @@ class HeaderController
       switch ($this->_currentPage)
       {
         case 'accueil':
-          $this->_chevdisplay="taghide";
+          $this->_chevdisplay="chevdisplay";
           break;
         default:
-        $this->_chevdisplay="tagdisplay";
+        $this->_chevdisplay="chevhide";
           break;
       }
     }
